@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/:pincode', getFoodAvailability)
 
 /** -------------------------- Top Restaurants ----------------------- **/
-router.get('top-restaurants/:pincode', getTopRestaurants)
+router.get('/top-restaurants/:pincode', getTopRestaurants)
 
 /** -------------------------- Foods Available in 30 minutes ----------------------- **/
 router.get('/foods-in-30-min/:pincode', getFoodsIn30Min)
